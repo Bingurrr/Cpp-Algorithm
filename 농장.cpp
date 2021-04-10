@@ -15,7 +15,6 @@ int main(void) {
         y = -1;
         return 0;
     }
-
     else {
         x = (w - n * b) / (a - b);
         if (x <= 0) {
@@ -23,7 +22,6 @@ int main(void) {
             return 0;
         }
     }
-
     y = n - x;
     cout << x << ' ' << y << endl;
     return 0;
